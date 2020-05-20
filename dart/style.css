@@ -100,7 +100,7 @@ body{
 
 .header__sign:hover{
     background-color: rgb(212, 198, 198);
-    
+    padding: 10px 20px;
 }
 
 
@@ -419,14 +419,11 @@ body{
 
 
 
-/* .info__item:hover{
-    min-height: 240px ;
-    padding: 25px;
-} */
+
 
 .active{
     max-height: 240px;
-    padding: 25px;
+    padding: 25px 18px;
 }
 
 .info__item.active::after{
@@ -746,6 +743,13 @@ line-height: 30px;
     border: 1px solid #061e37;
     border-radius: 5px;
     outline: none;
+    background-color: rgb(236, 225, 225);
+}
+input:focus{
+    background-color: #fff;    
+}
+.text:focus{
+    background-color: #fff;
 }
 
 .small:nth-child(odd){
@@ -757,7 +761,7 @@ textarea::placeholder{
     color:#061e37;
     font-size: 15px;
     font-weight: 600;
-    
+     /* box-sizing: content-box; */
 }
 
 .form__inner textarea{
@@ -768,6 +772,7 @@ textarea::placeholder{
     border: 1px solid #061e37;
     border-radius: 5px;
     outline: none;
+    background-color: rgb(236, 225, 225);
 }
 
 .submit{
