@@ -159,7 +159,7 @@ body{
 
 
 .intro__video{
-    /* background-image: url(/images/video.png); */
+    /* background-image: url(/dart/images/video.png); */
     background-image: url(https://yadi.sk/i/MtcDdXlQWNeejw);
     background-repeat: no-repeat;
     min-width: 600px;
@@ -459,7 +459,7 @@ line-height: 30px;
 }
 
 .about{
-    background-image: url(/images/about-BG.jpg);
+    background-image: url(/dart/images/about-BG.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -581,7 +581,7 @@ line-height: 30px;
 /* Стрелка влево */
 .slider__virtical .slick-arrow.slick-prev{
     top: -50px;
-    background-image: url(/images/arrow_up.png) ;
+    background-image: url(/dart/images/arrow_up.png) ;
     background-repeat: no-repeat;
     
 }
@@ -591,7 +591,7 @@ line-height: 30px;
 
 /* Стрелка вправо */
 .slider__virtical .slick-arrow.slick-next{
-    background-image: url(/images/keyboard_arrow_down.png) ;
+    background-image: url(/dart/images/keyboard_arrow_down.png) ;
     background-repeat: no-repeat;
     bottom: -40px;
 }
