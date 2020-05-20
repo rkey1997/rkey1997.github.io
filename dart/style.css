@@ -22,7 +22,7 @@ body{
 }
 
 .section__header{
-    /* background-image: url(/images/BG.jpg); */
+    background-image: url(/dart/images/BG.jpg);
     
     background-position: center;
     background-repeat: no-repeat;
