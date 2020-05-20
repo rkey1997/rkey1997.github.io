@@ -159,8 +159,8 @@ body{
 
 
 .intro__video{
-    /* background-image: url(/dart/images/video.png); */
-    background-image: url(https://yadi.sk/i/MtcDdXlQWNeejw);
+    background-image: url(/dart/images/video.png);
+    /* background-image: url(https://yadi.sk/i/MtcDdXlQWNeejw); */
     background-repeat: no-repeat;
     min-width: 600px;
     height: auto; 
