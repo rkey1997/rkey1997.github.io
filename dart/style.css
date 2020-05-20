@@ -748,7 +748,7 @@ line-height: 30px;
 input:focus{
     background-color: #fff;    
 }
-textarea:focus{
+.text:focus{
     background-color: #fff;
 }
 
