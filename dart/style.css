@@ -803,6 +803,10 @@ textarea::placeholder{
 .footer .header{
     margin-bottom: 50px;
 }
+.nav--footer:hover{
+    color: #fff;
+    opacity: .5
+}
 .underfoot{
     display: flex;
     justify-content: space-between;
@@ -839,12 +843,5 @@ textarea::placeholder{
 .priv__item a:hover{
     
     opacity: 1;
-}
-
-.fds{
-    font-size: 24px;
-    content: "\f09a";
-    font-family: 'icomoon';
-    color: #fff;
 }
 
