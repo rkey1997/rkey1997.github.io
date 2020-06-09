@@ -18,8 +18,25 @@ body{
 
 
 }
-.glav{
-    max-height: 100vh;
+
+.btn-top{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    border: none;
+    background-color:#ce0000;
+    padding: 15px 30px;
+   text-transform: uppercase;
+    color: #fff;
+    transition: background-color .3s linear;
+    display: none;
+    z-index: 1;
+    outline: none;
+}
+
+.btn-top:hover{
+    background-color: #e23b3b;
+    
 }
 .container{
     width: 100%;
