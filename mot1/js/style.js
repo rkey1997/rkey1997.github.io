@@ -2,6 +2,9 @@
 $(function () {
   $('.burger').on('click', function () {
     $('.header__menu').toggleClass('active');
+    if(window.matchMedia('(max-width: 768px)').matches){
+      $('body').toggleClass('hidden');
+    }
   })
 
   $('.slider').slick({
