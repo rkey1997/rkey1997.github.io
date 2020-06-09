@@ -757,6 +757,7 @@ header{
 .tell{
     font-size: 35px;
     color: #fff;
+    transition: all .2s linear;
     
 }
 .tell:hover{
@@ -784,6 +785,7 @@ address{
     margin-bottom: 20px;
     margin-left: 20px;
     color: rgb(255, 255, 255, .5);
+    transition: all .2s linear;
 }
 .mail__contact a:hover{
     color: rgb(255, 255, 255);
