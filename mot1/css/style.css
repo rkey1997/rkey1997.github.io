@@ -66,7 +66,7 @@ body{
 /* header inner******************************************** */
 
 header{
-    background-image: url(/images/Background.jpg);
+    background-image: url(/mot1/images/Background.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -119,7 +119,7 @@ header{
 
 .header__menu{
     position: absolute;
-    background-image: url(/images/BG-menu.png);
+    background-image: url(/mot1/images/BG-menu.png);
     top: 0;
     left: 0;
     height: 100%;
@@ -249,7 +249,7 @@ header{
     width: 622px;
     height: 378px;
     transform: rotate(-4deg);
-    background-image: url(/images/slider-mot.jpg);
+    background-image: url(/mot1/images/slider-mot.jpg);
     border: 10px solid #fff;
    
 }
@@ -288,7 +288,7 @@ header{
 }
 
 .slider .slick-arrow.slick-prev{
-   background-image: url(/images/arrow-left.png);
+   background-image: url(/mot1/images/arrow-left.png);
     margin-top: -40px;
    left: -40px;
 
@@ -296,7 +296,7 @@ header{
 /* Стрелка вправо */
 .slider .slick-arrow.slick-next{
    
-    background-image: url(/images/arrow-right.png);
+    background-image: url(/mot1/images/arrow-right.png);
     right: -40px;
    
 }
@@ -354,7 +354,7 @@ header{
 
 
 .revese{
-    background-image: url(/images/Backmiddle.jpg);
+    background-image: url(/mot1/images/Backmiddle.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -396,7 +396,7 @@ header{
 /* fly ////////////////////////////////////////////////// */
 
 .fly{
-    background-image: url(/images/BackGround-fly.png);
+    background-image: url(/mot1/images/BackGround-fly.png);
     background-position:  center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -459,13 +459,13 @@ header{
 }
 
 .slider__fly .slick-arrow.slick-prev{
-    background-image: url(/images/arrow-left.png);
+    background-image: url(/mot1/images/arrow-left.png);
     left: 45%;
  
  }
  /* Стрелка вправо */
  .slider__fly .slick-arrow.slick-next{
-    background-image: url(/images/arrow-right.png);
+    background-image: url(/mot1/images/arrow-right.png);
     right: 45%;
     
  }
@@ -475,7 +475,7 @@ header{
 
  .bikes{
      min-height: 790px;
-     background-image: url(/images/Background-bikes.jpg);
+     background-image: url(/mot1/images/Background-bikes.jpg);
      background-position:  center;
      background-repeat: no-repeat;
      background-size: cover;
@@ -531,14 +531,14 @@ header{
 }
 
 .bikes__slider .slick-arrow.slick-prev{
-    background-image: url(/images/arrow-left.png);
+    background-image: url(/mot1/images/arrow-left.png);
     left: -40px;
  
  }
  /* Стрелка вправо */
  .bikes__slider .slick-arrow.slick-next{
     
-    background-image: url(/images/arrow-right.png);
+    background-image: url(/mot1/images/arrow-right.png);
     right: -40px;
  }
 
@@ -619,7 +619,7 @@ header{
 /* ////////////////////sign////////////////////////// */
 
 .sign{
-    background-image: url(/images/Background-blog.jpg);
+    background-image: url(/mot1/images/Background-blog.jpg);
     background-position:  center;
      background-repeat: no-repeat;
      background-size: cover;
@@ -678,7 +678,7 @@ header{
 
 /* ///////////////////////////footer///////////////// */
 .footer{
-    background-image: url(/images/bg-\ footer.jpg);
+    background-image: url(/mot1/images/bg-\ footer.jpg);
     background-position:  center;
      background-repeat: no-repeat;
      background-size: cover;
@@ -1097,7 +1097,7 @@ address{
     width: 100%;
 }
 
-}
+
 
 @media (max-width: 360px ){
     .slider__inner{
