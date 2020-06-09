@@ -273,6 +273,9 @@ header{
     /* justify-content: space-around; */
     max-width: 622px;
 }
+.slick-arrow{
+    cursor: pointer;
+}
 .slider .slick-arrow{
     position: absolute;
     top: 50%;
@@ -971,7 +974,10 @@ address{
     }
 
     .header__menu.active{
+        
         width: 100%;
+        max-width: 768px;
+
     }
 
     
