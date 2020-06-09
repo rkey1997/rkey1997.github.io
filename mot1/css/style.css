@@ -780,7 +780,7 @@ address{
     text-align: center;
     padding: 34px 0;
 }
-@media (max-width: 1366px ){
+/* @media (max-width: 1366px ){
     .bikes__slider .slick-arrow.slick-prev{
        
         left: 0;
@@ -794,7 +794,7 @@ address{
      }
     
 
-}
+} */
 
 @media (max-width: 1024px ){
 
@@ -817,6 +817,18 @@ address{
     .sign__inner--item{
         margin-bottom: 20px;
     }
+    .bikes__slider .slick-arrow.slick-prev{
+       
+        left: 0;
+     
+     }
+     /* Стрелка вправо */
+     .bikes__slider .slick-arrow.slick-next{
+        
+        
+        right: 0;
+     }
+    
 }
 
 @media (max-width: 1024px ){
