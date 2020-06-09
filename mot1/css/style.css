@@ -755,6 +755,9 @@ header{
     color: #fff;
     
 }
+.tell:hover{
+    color: rgb(255, 255, 255, .5);
+}
 
 .adress{
     font-size: 17px;
@@ -777,6 +780,9 @@ address{
     margin-bottom: 20px;
     margin-left: 20px;
     color: rgb(255, 255, 255, .5);
+}
+.mail__contact a:hover{
+    color: rgb(255, 255, 255);
 }
 
 .copy{
