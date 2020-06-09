@@ -970,6 +970,10 @@ address{
         margin-left: 0;
     }
 
+    .header__menu.active{
+        width: 100%;
+    }
+
     
     
 }
