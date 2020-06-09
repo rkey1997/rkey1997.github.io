@@ -926,10 +926,7 @@ address{
     .slider .slick-track{
         max-width: 450px;
     }
-    .header__menu.active{
-        left: -166px;
-    }
-
+   
     .title{
         font-size: 60px;
     }
