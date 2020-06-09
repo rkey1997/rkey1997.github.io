@@ -16,6 +16,10 @@ body{
     color: #fff;
     background-color: #1b1b1b;
 
+
+}
+.glav{
+    max-height: 100vh;
 }
 .container{
     width: 100%;
