@@ -28,14 +28,14 @@ $(function(){
    arrows:false,
    slidesToShow:3,
    speed:1000,
-//    autoplay: true,
-//    autoplaySpeed:2000, 
+   autoplay: true,
+   autoplaySpeed:2000, 
    centerMode:true,
    adaptiveHeight:true,
-// variableWidth:true,
+
    easing:'easeInSine',
    asNavFor:'.slider__about',
-//    infinite:false
+
 responsive: [
     {
         breakpoint: 768,
