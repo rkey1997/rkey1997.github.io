@@ -1,0 +1,172 @@
+
+body{
+    font-family: 'Cinzel', serif;
+}
+
+
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto 0;
+    box-shadow:  0px 5px 20px 10px rgb(146, 145, 145);
+    padding: 40px 40px 100px;
+    /* text-align: center; */
+    margin-top: 50px;
+    
+}
+input{
+    border: none;
+    padding: 5px 15px;
+    border-bottom: 1px solid rgb(51, 48, 48);
+    outline: none;
+}
+button{
+    border: none;
+    background-color: rgb(136, 136, 136);
+    padding: 7px 20px;
+
+    
+}
+span{
+    margin-left: 15px;
+    color: red;
+}
+.library{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.title{
+    font-size: 50px;
+    display: inline-block;
+    margin: 35px 0 30px;
+}
+.info{
+    
+    width: 444px;
+ 
+    padding: 20px;
+    height: 118px;
+   
+}
+
+.input{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.add{
+    display: block;
+    max-width: 184px;
+    width: 100%;
+    
+}
+.library__list {
+}
+
+li{
+    font-size: 20px;
+    width: 400px;
+    
+    margin-bottom: 30px; 
+    text-align: center;
+}
+.add {
+}
+
+
+
+.wrong__author{
+    display: none;
+}
+.wrong__name{
+    display: none;
+}
+
+.active{
+    display: block;
+
+}
+
+.modal{
+    background-color: rgb(177, 177, 177);
+    padding: 15px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%,-50%,0);
+    display: none;
+    width: 300px;
+    height: 250px;
+}
+
+.modal input{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.modal button{
+    background-color: rgb(200, 200, 200);
+}
+
+
+.close__modal{
+    position: relative;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+   cursor: pointer;
+   
+   margin-left:  auto;
+}
+
+.close__modal span:first-child{
+    position: absolute;
+    left: 50%;
+    width: 1px;
+    height: 15px;
+    transform: rotate(45deg);
+    background-color: black;
+}
+.close__modal span:last-child{
+    position: absolute;
+    left: 50%;
+    width: 1px;
+    height: 15px;
+    transform: rotate(-45deg);
+    background-color: black;
+}
+
+.active{
+    display: block;
+}
+
+.author__value,
+.name__value{
+    display: block;
+    
+}
+.author__value{
+    font-style: italic;
+    font-size: 25px;
+   
+    font-weight: 700;
+}
+
+.name__value{
+    text-transform: uppercase;
+    font-size: 25px;
+    
+}
+
+
+li button{
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    margin-left: 20px;
+}
+
