@@ -905,7 +905,7 @@
        /* //////////////dop/////////// */
        
        .dop__title {
-           font-weight: bold;
+           font-family: gilroy--bold;
            font-size: 40px;
            line-height: 48px;
            margin-bottom: 20px;
